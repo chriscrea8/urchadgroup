@@ -67,3 +67,22 @@ body {
 .hero .content p span {
     font-weight: 700;
 }
+
+@media screen and (max-width: 480px) {
+    .nav .logo {
+        width: 100px;
+    }
+
+    .hero img {
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .hero .content h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero .content p {
+        padding: 0 50px;
+    }
+  }
